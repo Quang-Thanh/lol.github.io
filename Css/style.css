@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+.header-div{
+    max-width: 1430px;
+    margin: auto;
+}
+
+header .header-div{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    /* margin-top: 5px; */
+}
+
+.header-div-div{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-div-ul-list li{
+    /* position: relative; */
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#-header-item-a{
+    padding: 4px;
+    border: 3px solid;
+    border-color: cornsilk;
+}
+
+.ul--item--a{
+    color: #fd8;
+    text-decoration: none;
+    margin: 20px 30px 20px 40px;
+}
+
+.header-item--input{
+    margin: 0px 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdow-content{
+    display: none;
+    position: absolute;
+    /* background-color: #323; */
+    background-image: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/blurred1.jpg);
+    min-width: 174px;
+    /* height: 294px;
+    width: 1100px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdow-content{
+    display: block;
+}
+
+.drop-a{
+    text-decoration: none;
+    color: white;
+}
+
+.sec-1-div{
+    max-width: 1430px;
+    margin: auto;
+}
+
+main .sec1-div{
+    height: 500px;
+    max-width: 1430px;
+    margin: auto;
+    margin-top: 0px;
+    background-image: url(https://cdn.vn.garenanow.com/web/lol-product/LOLwebsite/img/blurred1.jpg);
+}
+
+.sec1-div-ul-list{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1-div-ul-list li{
+    /* height: 294px;
+    width: 903px; */
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.sec1-img{
+    height: 294px;
+    width: 1100px;
+    border: 3px solid;
+    border-color: blueviolet ;
+}
+
+.sec-2{
+    max-width: 1100px;
+    margin: auto;
+}
+
+main .sec-2{
+    width: 100%;
+    height: 50px;
+}
+
+.sec2-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sec2-div-ul-list li{
+    display: inline-block;
+}
+
+.sec2-img{
+    /* margin-top: 10px; */
+    width: 314px;
+    height: 235px;
+    padding: 10px 0px;
+    border: 2px solid;
+    border-color: blueviolet;
+    /* padding-right: 60px; */
+}
+.sec2-a{
+    width: 305px;
+    /* height: 64px; */
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 0px;
+    color: cornflowerblue;
+}
+
+.sec-3{
+    max-width: 1100px;
+    margin: auto;
+}
+
+main .sec-3{
+    width: 100%;
+    height: 50px;
+}
+
+.sec3-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec3-div-ul-list li{
+    display: inline-block;
+}
+
+.sec3-img{
+    margin-top: 250px;
+    width: 314px;
+    height: 235px;
+    padding: 10px 0px;
+    border: 2px solid;
+    border-color: blueviolet;
+    /* padding-right: 60px; */
+}
+.sec3-a{
+    width: 305px;
+    /* height: 64px; */
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 0px;
+    color: cornflowerblue;
+}
+
+.sec-4{
+    max-width: 1100px;
+    margin: auto;
+}
+
+main .sec-4{
+    width: 100%;
+    height: 50px;
+}
+
+.sec4-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4-div-ul-list li{
+    display: inline-block;
+}
+
+.sec4-img{
+    margin-top: 500px;
+    width: 314px;
+    height: 235px;
+    padding: 10px 0px;
+    border: 2px solid;
+    border-color: blueviolet;
+    /* padding-right: 60px; */
+}
+.sec4-a{
+    width: 305px;
+    /* height: 64px; */
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 0px;
+    color: cornflowerblue;
+}
+
+.sec-5{
+    width: 178px;
+    height: 64px;
+    /* margin: auto; */
+}
+main .sec-5{
+    margin: auto;
+    margin-top: 780px;
+}
+
+.sec5-a{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 2px solid;
+    
+}
+
+.footer {
+    max-width: 1430px;
+    margin: auto;
+}
+.foodter-div{
+    width: 100%;
+    height: 380px;
+    background-color: black;
+}
+
+.foodter-div-ul-list1 li{
+    /* display: flex;
+    justify-content: space-between;
+    display: inline-block; */
+    text-align: center;
+    /* margin-top: 30px; */
+    width: 1430px;
+    height: 65px;
+    
+}
+
+.foodter-div-ul-list2 li{
+    /* display: flex;
+    justify-content: space-between;
+    display: inline-block; */
+    color: white;
+    text-align: center;
+    width: 1430px;
+    height: 70px;
+}
+
+.foodter-img{
+    margin: 20px 0px;
+}
+
+.foodter-p{
+    margin: 15px 0px;
+    
+}
+
+.foodter--div{
+    max-width: 1430px;
+    margin: auto;
+
+}
+
+footer .foodter--div{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.foodter--div-ul-list{
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+.foodter--div-ul-list li{
+    /* display: inline-block; */
+    text-align: center;
+
+}
+
+.foodter--a{
+    width: 100px;
+    height: 30px;
+    /* text-align: center; */
+}
+
+.foodter--img{
+    width: 30px;
+    height: 30px;
+}
+
